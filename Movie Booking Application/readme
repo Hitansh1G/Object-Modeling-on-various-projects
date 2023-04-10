@@ -1,0 +1,36 @@
+Movie Booking Application
+
+
+Functional Requirements:
+
+1.There are numerous cinemas (theatres) present across the city of Amazon.
+Each cinema can have more than one screen and are uniquely identified using alphabets in increasing order.
+2.Each screen can only play one movie at a particular time slot on a day.
+Any movie can play at multiple screens as well as multiple time slots allotted to it across different cinemas.
+3.The user should be able to browse through the list of the movies available on the booking application.
+4.nce the user selects a movie, the user should be able to display the movie cinemas running that movie along with available shows.
+The user should be able to choose a show at a particular movie cinema and book their tickets.
+5.The user can request to display the seats along with availability status of a screen for a particular show.
+
+Note: The Application needs to be capable of reading input csv files to populate data (as shown in the last section below) before the Queries are made.
+
+
+Queries: Input and Output Format
+
+DISPLAY-MOVIES
+Display the list of all movies.
+
+
+
+Input format:
+
+
+DISPLAY-MOVIES
+Output Format Schema:
+Movie ID - { Movie ID  }
+Title - { Title of the movie  }
+Duration - { Duration of the movie in minutes }
+.
+.
+.
+Note:- Several (.) dots represent a list of defined output schema. 
